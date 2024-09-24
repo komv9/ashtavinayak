@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    color: #3fbbc0 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.service-box {
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+#home {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #3fbbc0;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
